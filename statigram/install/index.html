@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="Web Page Maker">
+
+<style type="text/css">
+/*----------Text Styles----------*/
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: 'Arial';font-style: normal;font-weight: normal;}
+/*----------Para Styles----------*/
+DIV,UL,OL /* Left */
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="shape5" style="position:absolute; overflow:hidden; left:0px; top:647px; width:153px; height:115px; z-index:0"></div>
+
+<div id="shape4" style="position:absolute; overflow:hidden; left:0px; top:0px; width:153px; height:115px; z-index:1"><img border=0 width="152" height="115" alt="" src="../img/blackline.gif"><span style="position:absolute; overflow:hidden; left:0px; top:647px; width:153px; height:115px; z-index:0"><img border=0 width="41" height="12" alt="" src="../img/botline.gif"></span></div>
+
+<div id="shape1" style="position:absolute; overflow:hidden; left:0px; top:112px; width:154px; height:538px; z-index:2"><img border=0 width="154" height="536" alt="" src="../img/topbkg.gif"></div>
+
+<div id="shape2" style="position:absolute; overflow:hidden; left:156px; top:-6px; width:690px; height:112px; z-index:3"><img border=0 width="620" height="116" alt="" src="../img/topbkg.gif"></div>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:300px; top:25px; width:304px; height:72px; z-index:4">
+<div class="wpmd">
+<div><font class="ws18"><B><U>StatiGram - Install</U></B></font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:192px; top:128px; width:1070px; height:829px; z-index:5">
+<div class="wpmd">
+<div><font class="ws11"><B><U>Steps:</U></B></font></div>
+<div><font class="ws11"><B><U><BR></U></B></font></div>
+<div><font class="ws11">1. Upload the statigram folder to your web site.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">2. Edit the "config.php" (in the admin folder), and "createtables.php" (in the install folder).</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">3. Upload "config.php" and "createtables.php" files.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">4. Go to "/install/index.html" (which is here).</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B><U>"/install/" Steps:</U></B></font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">1. Create tables. </font><font class="ws11"><B><a href="createtables.php" title="" target="_blank">CLICK HERE</a></B></font><font class="ws11"><B> (ONLY OPEN THIS LINK ONCE!)</B></font></div>
+<div><font class="ws11"><B><BR></B></font></div>
+<div><font class="ws11">2. Delete the "/install/" directory </font><font class="ws11"><B>(This is important for security reasons!)</B></font></div>
+<div><font class="ws11"><B><BR></B></font></div>
+<div><font class="ws11">3. Finish!</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">Your Statigram should now be working!</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">To get into the admin area go to www.yourdomain.com/statigramdirectory/</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">The password is the password you set in the "createtables.php" file (default: aniket).</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">To get visitor stats for a page, include the db_functions.php file and the code on any page on your website, (Just copy and paste) using:</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">&lt;?php
+require('statigram/db_functions.php');<br>
+$db = new db_functions();<br>
+$referer=$_SERVER['HTTP_REFERER'];<br>
+$db->storeEverything($referer);<br>
+?&gt; </font></div>
+<div><font class="ws11"><BR></font></div>
+<div>
+  <p><font class="ws11">and copying the db_functions.php file into the same</font></p>
+</div>
+<div><font class="ws11">directory as any pages including it.</font></div>
+
+<div><font class="ws11">If you want to track the html pages you will have to add following to your .htaccess file
+
+AddType application/x-httpd-php .html .htm
+
+if you are using php5 then include this
+
+AddType application/x-httpd-php5 .html .htm
+
+and if either of this don't work then you will have to rename your html file to php.</font></div>
+</div></div>
+
+
+</body>
+</html>

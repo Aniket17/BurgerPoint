@@ -1,0 +1,32 @@
+
+@media (max-width: 1215px)
+{
+        
+}
+
+@media (max-width: 915px)
+{
+       
+}
+
+@media (max-width: 765px)
+{
+     
+}
+
+@media (max-width: 500px)
+{
+        
+}
+
+/* KEYFRAMES */
+
+@keyframes stylie-transform-keyframes {
+  0% {transform:translateX(30px) translateY(46px) rotate(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translateX(260px) translateY(-150px) rotate(0deg) translate(-50%, -50%);}
+}
+
+@keyframes stylie-transform2-keyframes {
+  0% {transform:translateX(40px) translateY(40px) rotate(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translateX(50px) translateY(40px) rotate(0deg) translate(-50%, -50%);}
+}
