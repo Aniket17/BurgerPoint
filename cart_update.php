@@ -13,6 +13,9 @@ if(isset($_POST["type"]) && $_POST["type"]=='add')
 		$qtyid = 1;
 	}
 	
+	
+	
+	
 	//MySqli query - get details of item from db using product code
 	$results = mysql_query("SELECT * FROM menu WHERE id='$product_code' ");
 	$obj = mysql_fetch_array($results);
