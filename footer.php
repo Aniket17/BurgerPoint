@@ -28,7 +28,7 @@
 <div id="footer_element" >
 <img src="images/footer/testimonials.png"/>Testimonials
 </div></a>
-<a href="https://www.twitter.com/burger_point">
+<a href="https://www.twitter.com/burger_point" target="_blank">
 <div id="footer_element" style=" color:#FFF">
 <img src="images/footer/twitter.png"/> Follow us
 </div></a>
